@@ -1,0 +1,12 @@
+{
+  "diff_torchscript": 0.0,
+  "diff_onnx": 7.62939453125e-06,
+  "onnx_test_acc": 0.9268,
+  "torch_ms": 0.8033319998048682,
+  "ort_ms": 0.1406155001859588,
+  "sizes": {
+    "models/cnn_best.pt": 885786,
+    "models/cnn_ts.pt": 912716,
+    "models/cnn.onnx": 876835
+  }
+}

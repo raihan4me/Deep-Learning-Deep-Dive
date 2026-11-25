@@ -1,0 +1,23 @@
+{
+  "no_reg": {
+    "train_acc": 1.0,
+    "val_acc": 0.829,
+    "gap": 0.17100000000000004,
+    "final_val_loss": 0.8901274919509887,
+    "best_val_loss": 0.513473516702652,
+    "best_epoch": 6
+  },
+  "dropout_wd": {
+    "train_acc": 0.9625,
+    "val_acc": 0.838,
+    "gap": 0.12450000000000006,
+    "final_val_loss": 0.5341754078865051,
+    "best_val_loss": 0.49640766382217405,
+    "best_epoch": 18
+  },
+  "early_stopping": {
+    "stopped_epoch": 11,
+    "restored_val_loss": 0.513473516702652,
+    "val_acc": 0.8114
+  }
+}
